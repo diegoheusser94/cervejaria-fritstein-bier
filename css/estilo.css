@@ -1,0 +1,58 @@
+body {
+    font-family: Sans-serif;
+    color: #fff;
+}
+
+.beers{
+	margin: 0 auto 0;
+}
+
+section {
+	width: 100%;
+}
+.strong{
+	background-color: #fcbc55;
+}
+
+.weak{
+	background-color: #fbb23c;
+}
+
+.content{
+	max-width: 1024px;
+    margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+header{
+	padding-bottom: 60px;
+}
+
+nav{
+	background-color: #e48e05;
+	text-align: center;
+	padding-top: 20px;
+	height: 40px;
+	width: 100%;
+	position: fixed;	
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+#img-history{
+	width: 360px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}

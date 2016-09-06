@@ -2,10 +2,52 @@
 <html>
 	<head>
 		<title>Fritstein Bier</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="css/estilo.css"/>
+
 	</head>
 	<body>
-		<header>
+		<header id="header">
+			<nav>
+				<a onclick="document.getElementById('header').scrollIntoView()">Home</a>
+				<a onclick="document.getElementById('about_us').scrollIntoView()">Sobre nós</a>
+				<a onclick="document.getElementById('beers').scrollIntoView()">Cervejas</a>
+				<a onclick="document.getElementById('equipments').scrollIntoView()">Equipamentos</a>
+				<a onclick="document.getElementById('address').scrollIntoView()">Contato</a>
+			</nav>
 		</header>
+		<main>
+			<section class="strong">
+				<div id="about_us" class="content">
+					<h1>Sobre nós</h1>
+					<img src="image/history.jpg" id="img-history"/>					
+					<p>No ano de 2000 dois amigos apreciadores de cervejas e chopes artesanais decidem seguir carreira de mestres cervejeiros e com isso abrem sua cervejaria: Cervejaria Fritstein Bier.</p>
+					<p>Hoje a cervejaria conta com um local para atender seus clientes que podem além de apreciar seus produtos, verificar o processo de produção.</p>
+					<p>No Bar, um ambiente informal e descontraído conta com um variado cardápio de petiscos, incluindo alguns tipicamente alemães.</p>
+					<p>Outro diferencial da casa é a programação musical.</p>
+					<p>Com certeza a melhor opção em chope na cidade mais alemã do Brasil!</p>
+				</div>
+			</section>
+			<section class="weak" >
+				<div id="beers" class="content">
+					<h1>Cervejas</h1>	
+					<center><img src="image/CERVEJA 012.png" class="beers"/></center>						
+				</div>
+			</section>
+			<section class="strong">
+				<div id="equipments"  class="content">
+					<h1>Equipamentos</h1>				
+				</div>
+			</section>
+			<section class="weak">
+				<div id="address"  class="content">
+					<h1>Contato</h1>
+					Telefone: (47) 9652.6602
+					E-mail: contato@cervejariafritstein.com.br			
+				</div>
+			</section>	
+		</main>
 		<footer>
 		</footer>
 	</body>
